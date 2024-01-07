@@ -6,11 +6,8 @@ There is survey conducted in June 2022 on Twitter and LinkedInd among profession
 There are following questions asked in the survey:
 
 Q1 - Which Title Best Fits your Current Role?
-
 Q2 - Did you switch careers into Data?
-
 Q3 - Current Yearly Salary (in USD)
-
 Q4 - What Industry do you work in?
 Q5 - Favorite Programming Language
 Q6 - How Happy are you in your Current Position with the following?
