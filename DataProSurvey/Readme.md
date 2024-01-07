@@ -2,10 +2,15 @@ The data source is Excel workbook containing results of Data Professionals surve
 
 There is survey conducted in June 2022 on Twitter and LinkedInd among professionals in Data Business. The survey was created and taken by Alex The Analyst, who provided the Survey Results Dataset publicly and it will be used in this project.
 
+
 There are following questions asked in the survey:
+
 Q1 - Which Title Best Fits your Current Role?
+
 Q2 - Did you switch careers into Data?
+
 Q3 - Current Yearly Salary (in USD)
+
 Q4 - What Industry do you work in?
 Q5 - Favorite Programming Language
 Q6 - How Happy are you in your Current Position with the following?
