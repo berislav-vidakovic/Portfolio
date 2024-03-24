@@ -1,0 +1,45 @@
+2024-Mar-24-17:11:22 : Preliminaries complete. Initiating ETL process
+2024-Mar-24-17:11:23 : Data extraction complete. Initiating Transformation process
+2024-Mar-24-17:11:24 : Data transformation complete. Initiating Loading process
+2024-Mar-24-17:11:24 : Data saved to CSV file
+2024-Mar-24-17:11:24 : SQL Connection initiated
+2024-Mar-24-17:11:24 : Data loaded to Database as a table, Executing queries
+2024-Mar-24-17:11:24 : Running query... SELECT Name, MC_USD_Billion FROM Largest_banks
+2024-Mar-24-17:11:24 : ...Query output:
+                                      Name  MC_USD_Billion
+0                           JPMorgan Chase          491.76
+1                          Bank of America          266.45
+2  Industrial and Commercial Bank of China          219.45
+3                              Wells Fargo          178.74
+4               Agricultural Bank of China          175.69
+5                                HDFC Bank          169.84
+6                        HSBC Holdings PLC          156.13
+7                           Morgan Stanley          153.05
+8                  China Construction Bank          151.97
+9                            Bank of China          150.39
+2024-Mar-24-17:11:24 : Running query... SELECT Name, MC_GBP_Billion FROM Largest_banks
+2024-Mar-24-17:11:24 : ...Query output:
+                                      Name  MC_GBP_Billion
+0                           JPMorgan Chase          393.41
+1                          Bank of America          213.16
+2  Industrial and Commercial Bank of China          175.56
+3                              Wells Fargo          142.99
+4               Agricultural Bank of China          140.55
+5                                HDFC Bank          135.87
+6                        HSBC Holdings PLC          124.90
+7                           Morgan Stanley          122.44
+8                  China Construction Bank          121.58
+9                            Bank of China          120.31
+2024-Mar-24-17:11:24 : Running query... SELECT AVG(MC_EUR_Billion) AS Average_EUR FROM Largest_banks
+2024-Mar-24-17:11:24 : ...Query output:
+   Average_EUR
+0      196.553
+2024-Mar-24-17:11:24 : Running query... SELECT Name, MC_INR_Billion FROM Largest_banks LIMIT 5
+2024-Mar-24-17:11:24 : ...Query output:
+                                      Name  MC_INR_Billion
+0                           JPMorgan Chase        40791.49
+1                          Bank of America        22102.03
+2  Industrial and Commercial Bank of China        18203.38
+3                              Wells Fargo        14826.48
+4               Agricultural Bank of China        14573.49
+2024-Mar-24-17:11:24 : Server Connection closed
