@@ -1,1 +1,2 @@
 
+MVC architecture</b> ensures isolation of Model (business logic) and View (presentation logic) from the Controller (application logic). Controller calls functions from Model and from the View, subscribes and listens to updating Model and updates View accordingly in the realtime. Model and View are not aware neither of each other nor of the Controller, they simply sit and wait for their functions to be called
